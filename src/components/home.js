@@ -8,7 +8,7 @@ function Home() {
 
     return (
         <>
-        <h1>Welcome {user?.email}</h1>
+        <h1>Welcome to Expense Tracker</h1>
         <button onClick={()=>{auth.signOut(); navigate('/')}}>Sign Out</button>
         </>
     )
